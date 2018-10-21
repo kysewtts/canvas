@@ -65,7 +65,7 @@ if(canvas.getContext){
   }
   var cirArray = [];
 
-  for(var i = 0; i < 200; i++){
+  for(var i = 0; i < 400; i++){
     cirArray.push(new Circle(Math.random()*(innerWidth - radius*2) + radius, Math.random()*(innerHeight - radius*2)+radius, (Math.random()-0.5)*4, (Math.random()-0.5)*4, radius, color[Math.floor(Math.random() * color.length)]));
     console.log(color[Math.floor(Math.random() * i)]);
   }
